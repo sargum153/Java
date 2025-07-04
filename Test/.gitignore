@@ -1,0 +1,17 @@
+# Ignore Eclipse metadata and settings
+.metadata/
+.settings/
+.classpath
+.project
+
+# Ignore compiled class files
+*.class
+
+# Ignore build folders
+/bin/
+/build/
+/target/
+
+# Ignore OS/system files
+Thumbs.db
+Desktop.ini
