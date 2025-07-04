@@ -1,8 +1,9 @@
 //Develop a UDM to check whether given number is perfect number or not
 
-package Method;
+package DataStructuresAndAlgorithms;
+
 public class PerfectNumber {
-	public static boolean isPerfectNumber(int num) {
+public static boolean isPerfectNumber(int num) {
 		
 		int sum = 0;
 		for(int i = 1; i < num; i++) {
@@ -24,3 +25,4 @@ public class PerfectNumber {
 		}
 	}
 }
+
