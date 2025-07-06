@@ -15,7 +15,7 @@ public class EvenOdd {
 	}
 	
 	public static void findEvenOdd(int num) {
-		if(num % 2 == 0) {
+			if(num % 2 == 0) {
 			System.out.println(num + " is a Even Number.");
 		} else {
 			System.out.println(num + " is a Odd Number");
@@ -23,3 +23,6 @@ public class EvenOdd {
 	}
 
 }
+
+
+
