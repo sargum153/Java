@@ -1,12 +1,12 @@
 package DataStructuresAndAlgorithms;
 
-import java.util.*;
+import java.util.Scanner;
 public class Pelindrom {
  
  public static void main(String[] args)  { 
-  Scanner sc=new Scanner(System.in); 
+  Scanner scn=new Scanner(System.in); 
   System.out.println("enter a number"); 
-  int n =sc.nextInt(); // n = 123
+  int n =scn.nextInt(); // n = 123
   int t=n; // t=123 , n = 123 
   int rev=0; // rev = 0 , t = 123; n = 123
   int sum = 0;
@@ -19,7 +19,7 @@ public class Pelindrom {
    n=n/10; // n = 123/10 n = 12; rev = 3 ; n = 1 n = 0
    
    //System.out.println("n value " + n); // n = 12
-   //System.out.println("rev value " +rev); // rev = 3
+   //System.out.println("rev value " +rev); // rev = 3 
   }
   if (rev==t) // 321 == 123
    System.out.println(t+"is a palindrome number"); 
