@@ -11,8 +11,8 @@ public class ReverseNum {
 		
 		int n = scn.nextInt();
 		
-		for(int i = n; i >= 1; i--) {
-			System.out.println(i);
+		for(int i = n; i > 1; i--) {
+			System.out.print(i + " ");
 		}
 		
 	}

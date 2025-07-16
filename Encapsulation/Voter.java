@@ -16,7 +16,7 @@ public class Voter {
 	
 	public void setAge(int age) throws IllegalArgumentException {
 		if(age < 18 || age > 120) {
-			System.out.println("You are not Illigiable fpr votting.");
+			throw new IllegalArgumentException("You are not elligiable for votting.");
 		} 
 		this.age=age;
 	}
@@ -24,11 +24,17 @@ public class Voter {
 		return age;
 	}
 	
-	public void setName(String name) {
-		this.name=name;
+	public void setName(String name) throws IllegalArgumentException{
+		if (name == null || name.trim().isEmpty() || name.matches("\\d+")) {
+		    throw new IllegalArgumentException("Invalid name: Cannot be empty or a number.");
+		}
+		
+		this.name= name;
 	}
 	
 	public String getName() {
 		return name;
 	}
+	
+	
 }

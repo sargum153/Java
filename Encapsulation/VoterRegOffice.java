@@ -9,10 +9,12 @@ public class VoterRegOffice {
 		 
 		 while(true) {
 			 Voter v = new Voter();
-			 System.out.print("Enter name :");
-			 v.setName(scn.nextLine());
+			 
 			 
 			 try {
+				 System.out.print("Enter name :");
+				 v.setName(scn.nextLine());
+				 
 				 System.out.print("Enter age :");
 				 v.setAge(scn.nextInt());
 				 System.out.println("Hi " + v.getName() + " Your name Saved.");

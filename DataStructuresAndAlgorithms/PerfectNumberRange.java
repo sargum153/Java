@@ -18,6 +18,7 @@ public class PerfectNumberRange {
 			}
 			
 			if(sum == num) {
+				
 				System.out.println(num + " is a perfect number.");
 			}
 		}
